@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+body {
+background-color: #182a2c;
+font-family:'Times New Roman';
+font-weight: 400;
+font-size: 24px;
+color: #555;
+
+-webkit-font-smoothing: antialiased;
+-webkit-overflow-scrolling: touch;
+
+marging-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Texturina', serif;
+  font-weight: 400;
+  color: #333;
+}
+
+p{
+  line-height: 28px;
+}
+
+.centered{
+  text-align: center;
+}
+
+a{
+  color:#4E8975;
+  text-align: center;
+}
+
+a:hover, a:focus {
+  color: #4E8975;
+}
+
+.my-main-body{
+  background-color:#CFECEC;
+  margin-left:2%;
+  margin-right: 2%;
+}
+
+.navbar{
+  font-weight: 800;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    float: none;
+    font-weight: 800;
+    font-size: 40px;
+  }
+
+  .my-navbar-brand{
+    margin: auto;
+    padding: 90px;
+  }
+
+  .my-navbar-nav{
+    padding-right: : 90px;
+  }
+
+#headerwrap{
+  background: #CFECEC;
+  margin-top: 100px;
+  padding-top: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+  background-position: center center;
+  background-size: 100%;
+}
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  padding: -10px;
+  margin: -10px;
+}
+
+.my-text-block-hello{
+  text-align: left;
+}
+
+.my-footer{
+  background-color: #2C3539;
+  height: 600px;
+  color: #E5E4E2;
+
+}
+
+.my-icon-block-footer{
+    text-align: right;
+}
+
+.my-text-block-footer{
+    text-align: left;
+}
